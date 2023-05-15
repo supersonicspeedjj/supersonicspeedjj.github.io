@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/dance.js") 
+block style 
+    style 
+        include ../static/dance.css
+block content 
+    <nav id="navbar">
+        <ul id="list">
+            <div id="logo"><img src="static\logo.png">KYSDA</div>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Class Timing</a></li>
+        </ui>
+    </nav>
+    <section id="picture">
+        <div>Welcome to KYS Dance Academy</div>
+        <div id="small">Dance Or KYS</div>
+    </section>
+    <section id="mission">
+        <h1>Our Mission</h1>
+        <div id="card1">
+            <div id="internal1">
+                <h2>Lorem, ipsum dolor.</h2>
+                <img src="static\1.png">
+            </div>
+        </div>
+        <div id="card2">
+            <div id="internal2">
+                <h2>Lorem, ipsum dolor.</h2>
+                <img src="static\2.png">
+            </div>
+        </div>
+        <div id="card3">
+            <div id="internal3">
+                <h2>Lorem, ipsum dolor.</h2>
+                <img src="static\3.png"></div>
+        </div>
+    </section>
+    <section id="sponsers">
+        <h2>
+            Our Sponsers
+        </h2>
+        <div id="im">
+            <img src="static\logo1.png" class="sponserimg">
+            <img src="static\logo2.png" class="sponserimg">
+            <img src="static\logo3.png" class="sponserimg">
+            <img src="static\logo4.png" class="sponserimg">
+        </div>
+    </section>
